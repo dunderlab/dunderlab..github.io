@@ -10,11 +10,14 @@ class StaticApp(RadiantAPI):
     def __init__(self, *args, **kwargs):
         """"""
         super().__init__(*args, **kwargs)
-        self.body <= html.H1('Radiant-Framework')
-
-        self.body <= self.main()
+        self.body <= self.under_construction()
 
         # Template("menu").render()
+
+    # ----------------------------------------------------------------------
+    def under_construction(self):
+        """"""
+        return render('placeholder.html')
 
     # ----------------------------------------------------------------------
     def main(self):

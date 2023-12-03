@@ -10,13 +10,23 @@ class StaticApp(RadiantAPI):
     def __init__(self, *args, **kwargs):
         """"""
         super().__init__(*args, **kwargs)
-        self.body <= html.H1('Radiant-Framework')
 
-        self.body <= self.main()
+        self.body <= self.under_construction()
 
         # Template("menu").render()
 
     # ----------------------------------------------------------------------
+
+    def under_construction(self):
+        """"""
+
+        # <h1>Sitio en Construcción</h1>
+            # <p>Estamos trabajando para lanzar nuestro nuevo sitio web. ¡Vuelve pronto!</p>
+
+        return render('placeholder.html')
+
+    # ----------------------------------------------------------------------
+
     def main(self):
         """"""
         context = {
