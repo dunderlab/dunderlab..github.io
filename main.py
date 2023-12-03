@@ -33,7 +33,7 @@ class StaticApp(RadiantAPI):
 
 if __name__ == '__main__':
     RadiantServer('StaticApp',
-                  port='5555',
+                  port='5001',
                   template='layout.html',
                   static_app='docs',
                   )
