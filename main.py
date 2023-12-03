@@ -35,5 +35,5 @@ if __name__ == '__main__':
     RadiantServer('StaticApp',
                   port='5555',
                   template='layout.html',
-                  static_app=True,
+                  static_app='docs',
                   )
