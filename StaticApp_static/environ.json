@@ -1,0 +1,1 @@
+{"class_": "StaticApp", "python_": [], "module": "dunderlab.github.io", "file": "main", "file_path": "/root/main.py", "theme": null, "argv": ["/home/yeison/Development/DunderLab/dunderlab.github.io/main.py"], "template": "layout.html", "mock_imports": [], "path": null, "brython_version": "3.11.2", "debug_level": 0, "static_app": true, "modules": []}
