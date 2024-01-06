@@ -58,7 +58,7 @@ projects = (
     {
         'name': 'DunderLab’s Documentation Guide',
         'type': 'Python module',
-        'description': 'This Python module facilitates the creation of Sphinx Documntation directly from Jupyter Notebooks. Essentially, it provides a preconfigured environment that utilizes nbsphinx in the background, complete with custom styles and preloaded modules.',
+        'description': 'This Python module facilitates the creation of Sphinx Documentation directly from Jupyter Notebooks. Essentially, it provides a preconfigured environment that utilizes nbsphinx in the background, complete with custom styles and preloaded modules.',
         'tools': ['Python', 'Sphinx'],
         'documentation': 'https://dunderlab-docs.readthedocs.io/',
         'repository': 'https://github.com/dunderlab/python-dunderlab.docs',
